@@ -8,7 +8,7 @@ import AlbumList from './src/components/AlbumList'
 // A Component is a JS Function that returns some JSX
 const App = ()=>{
   return(
-    <View>
+    <View style={{flex: 1}}>
       <Header headerText={'Albums'} /> {/* Empty tags are self closing. Not <Header></Header> */}
       <AlbumList />
     </View>
